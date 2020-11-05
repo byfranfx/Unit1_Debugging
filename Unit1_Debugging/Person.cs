@@ -15,7 +15,7 @@ namespace Unit1_Debugging
         {
             string output = "";
 
-            for (int i = 0; i <= FirstName.Length; i++)
+            for (int i = 0; i < FirstName.Length; i++)
             {
                 if (i % 2 == 0)
                 {
