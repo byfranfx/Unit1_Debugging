@@ -10,6 +10,13 @@ namespace Unit1_Debugging
     {
         static void Main(string[] args)
         {
+            Person p = new Person();
+
+            p.FirstName = "Fran";
+            p.LastName = "Gomez";
+
+            Console.WriteLine(p.FunkyNameBuilder());
+            Console.ReadLine();
         }
     }
 }
